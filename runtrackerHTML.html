@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Run Time tracker</title>
+  <link rel="stylesheet" href="./runtrackerCSS.css">
+  <script src = "./runtrackerJS.js"></script>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <a class="navbar-brand" href="./HomepageHTML.html">Malinor Systems</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="./HomepageHTML.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./runtrackerHTML.html">Run Time Tracker</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class = "text">
+<br>
+  <h1> Run Time Tracker</h1>
+  
+  <p>The purpose of this page is to track run times. The final goal is to run 11 km in 90 minutes which is what most professional midfielders run during a game.</p>
+
+  <table id = "my-table">
+    <tr>
+      <th> date </th>
+      <th> time </th>
+      <th> distance </th>
+    </tr>
+    <tr>
+      <td> 23 May </td>
+      <td> 10:00 </td>
+      <td> 1.30 km </td>
+    </tr>
+    <tr>
+      <td> 24 May </td>
+      <td> 10:00 </td>
+      <td> 1.32 km </td>
+    </tr>
+    <tr>
+      <td> 25 May </td>
+      <td> 20:00 </td>
+      <td> 2.68 km </td>
+    </tr>
+    <tr>
+      <td> 26 May </td>
+      <td> 10:50 </td>
+      <td> 3.02 km </td>
+    </tr>
+    <tr>
+      <td> 27 May </td>
+      <td> 11:38 </td>
+      <td> 1.07 km </td>
+    </tr>
+    <tr>
+      <td> 6 June </td>
+      <td> 13.12 </td>
+      <td> 2.00 km </td>
+    </tr>
+    <tr>
+      <td> 7 June </td>
+      <td> 12:46</td>
+      <td> 2.00 km </td>
+    </tr>
+    <tr>
+      <td> 8 June </td>
+      <td> 10:59</td>
+      <td> 2.00 km </td>
+    </tr>
+    <tr>
+      <td> 11 June </td>
+      <td> 10:53</td>
+      <td> 2.00 km </td>
+    </tr>
+  </table>
+
+  <p> Add a new entry to table with todays date: </p>
+
+  <form>
+    <strong>Time:</strong><br> 
+    <input type="text" name = "time" id = "time" placeholder = "min:sec" >
+    <br>
+    <strong>Distance:</strong><br>
+    <input type = "text" name = "distance" id = "distance" placeholder = "km">
+    <br><br>
+<!--     <input type = "submit" value = "Submit"> -->
+  </form>
+</div>
+</body>
+
+</html>
